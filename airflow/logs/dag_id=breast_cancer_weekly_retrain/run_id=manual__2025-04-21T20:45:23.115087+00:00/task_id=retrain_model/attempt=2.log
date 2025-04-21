@@ -1,0 +1,32 @@
+[2025-04-21T17:27:49.935-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: breast_cancer_weekly_retrain.retrain_model manual__2025-04-21T20:45:23.115087+00:00 [queued]>
+[2025-04-21T17:27:49.940-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: breast_cancer_weekly_retrain.retrain_model manual__2025-04-21T20:45:23.115087+00:00 [queued]>
+[2025-04-21T17:27:49.940-0400] {taskinstance.py:2170} INFO - Starting attempt 2 of 3
+[2025-04-21T17:27:49.949-0400] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): retrain_model> on 2025-04-21 20:45:23.115087+00:00
+[2025-04-21T17:27:49.967-0400] {standard_task_runner.py:60} INFO - Started process 86966 to run task
+[2025-04-21T17:27:49.974-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'breast_cancer_weekly_retrain', 'retrain_model', 'manual__2025-04-21T20:45:23.115087+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/breast_cancer_retrain_dag.py', '--cfg-path', '/var/folders/xh/nzdhwdsn5tl09sb1dpsfz0r40000gn/T/tmp7y4nluj4']
+[2025-04-21T17:27:49.976-0400] {standard_task_runner.py:88} INFO - Job 23: Subtask retrain_model
+[2025-04-21T17:27:50.006-0400] {task_command.py:423} INFO - Running <TaskInstance: breast_cancer_weekly_retrain.retrain_model manual__2025-04-21T20:45:23.115087+00:00 [running]> on host gauravs-macbook-pro.local
+[2025-04-21T17:27:50.038-0400] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gaurav' AIRFLOW_CTX_DAG_ID='breast_cancer_weekly_retrain' AIRFLOW_CTX_TASK_ID='retrain_model' AIRFLOW_CTX_EXECUTION_DATE='2025-04-21T20:45:23.115087+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-21T20:45:23.115087+00:00'
+[2025-04-21T17:27:50.040-0400] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/xh/nzdhwdsn5tl09sb1dpsfz0r40000gn/T
+[2025-04-21T17:27:50.041-0400] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', "\n        bash -c '\n        cd /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline &&\n        source venv/bin/activate &&\n        python train.py\n        '\n        "]
+[2025-04-21T17:27:50.056-0400] {subprocess.py:86} INFO - Output:
+[2025-04-21T17:28:34.059-0400] {subprocess.py:93} INFO -                Accuracy    Recall  F1 Score    Confusion Matrix
+[2025-04-21T17:28:34.061-0400] {subprocess.py:93} INFO - logreg         0.938596  0.976744  0.923077  [[65, 6], [1, 42]]
+[2025-04-21T17:28:34.062-0400] {subprocess.py:93} INFO - knn            0.947368  0.930233  0.930233  [[68, 3], [3, 40]]
+[2025-04-21T17:28:34.062-0400] {subprocess.py:93} INFO - svm_linear      0.95614  0.953488  0.942529  [[68, 3], [2, 41]]
+[2025-04-21T17:28:34.062-0400] {subprocess.py:93} INFO - svm_rbf        0.938596  0.953488  0.921348  [[66, 5], [2, 41]]
+[2025-04-21T17:28:34.063-0400] {subprocess.py:93} INFO - naive_bayes    0.964912  0.930233  0.952381  [[70, 1], [3, 40]]
+[2025-04-21T17:28:34.063-0400] {subprocess.py:93} INFO - decision_tree  0.938596  0.883721  0.915663  [[69, 2], [5, 38]]
+[2025-04-21T17:28:34.063-0400] {subprocess.py:93} INFO - random_forest  0.964912  0.930233  0.952381  [[70, 1], [3, 40]]
+[2025-04-21T17:28:34.063-0400] {subprocess.py:93} INFO - Best params keys: dict_keys(['logreg', 'knn', 'svm_linear', 'svm_rbf', 'naive_bayes', 'decision_tree', 'random_forest'])
+[2025-04-21T17:28:34.064-0400] {subprocess.py:93} INFO - Failed to log metric 'Confusion Matrix': only length-1 arrays can be converted to Python scalars
+[2025-04-21T17:28:34.064-0400] {subprocess.py:93} INFO - Failed to log metric 'Confusion Matrix': only length-1 arrays can be converted to Python scalars
+[2025-04-21T17:28:34.064-0400] {subprocess.py:93} INFO - Failed to log metric 'Confusion Matrix': only length-1 arrays can be converted to Python scalars
+[2025-04-21T17:28:34.065-0400] {subprocess.py:93} INFO - Failed to log metric 'Confusion Matrix': only length-1 arrays can be converted to Python scalars
+[2025-04-21T17:28:34.065-0400] {subprocess.py:93} INFO - Failed to log metric 'Confusion Matrix': only length-1 arrays can be converted to Python scalars
+[2025-04-21T17:28:34.065-0400] {subprocess.py:93} INFO - Failed to log metric 'Confusion Matrix': only length-1 arrays can be converted to Python scalars
+[2025-04-21T17:28:34.065-0400] {subprocess.py:93} INFO - Failed to log metric 'Confusion Matrix': only length-1 arrays can be converted to Python scalars
+[2025-04-21T17:28:34.855-0400] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-04-21T17:28:34.877-0400] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=breast_cancer_weekly_retrain, task_id=retrain_model, execution_date=20250421T204523, start_date=20250421T212749, end_date=20250421T212834
+[2025-04-21T17:28:34.903-0400] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-04-21T17:28:34.913-0400] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

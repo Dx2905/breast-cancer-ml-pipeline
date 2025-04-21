@@ -1,0 +1,980 @@
+[2025-04-21T16:39:57.982-0400] {processor.py:161} INFO - Started process (PID=83592) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:39:57.983-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T16:39:57.983-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:39:57.983-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:39:58.006-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:39:58.005-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T16:39:58.007-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:39:58.068-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.087 seconds
+[2025-04-21T16:42:36.119-0400] {processor.py:161} INFO - Started process (PID=83725) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:42:36.120-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T16:42:36.120-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:42:36.120-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:42:36.144-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:42:36.143-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T16:42:36.145-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:42:36.218-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.100 seconds
+[2025-04-21T16:46:13.337-0400] {processor.py:161} INFO - Started process (PID=83963) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:46:13.339-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T16:46:13.340-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:46:13.340-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:46:13.367-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:46:13.365-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T16:46:13.367-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:46:13.428-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.091 seconds
+[2025-04-21T16:47:58.882-0400] {processor.py:161} INFO - Started process (PID=84077) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:47:58.885-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T16:47:58.885-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:47:58.885-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:47:58.909-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:47:58.907-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T16:47:58.909-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:47:58.966-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.085 seconds
+[2025-04-21T16:49:10.345-0400] {processor.py:161} INFO - Started process (PID=84156) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:49:10.347-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T16:49:10.348-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:49:10.348-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:49:10.370-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:49:10.368-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T16:49:10.371-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:49:10.426-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.082 seconds
+[2025-04-21T16:50:22.755-0400] {processor.py:161} INFO - Started process (PID=84247) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:50:22.757-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T16:50:22.758-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:50:22.758-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:50:22.782-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:50:22.780-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T16:50:22.783-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:50:22.840-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.086 seconds
+[2025-04-21T16:51:44.767-0400] {processor.py:161} INFO - Started process (PID=84337) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:51:44.769-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T16:51:44.770-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:51:44.770-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:51:44.795-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:51:44.793-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T16:51:44.796-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:51:44.857-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.091 seconds
+[2025-04-21T16:53:06.732-0400] {processor.py:161} INFO - Started process (PID=84437) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:53:06.734-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T16:53:06.735-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:53:06.735-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:53:06.760-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:53:06.758-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T16:53:06.760-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:53:06.820-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.089 seconds
+[2025-04-21T16:54:24.740-0400] {processor.py:161} INFO - Started process (PID=84540) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:54:24.742-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T16:54:24.743-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:54:24.742-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:54:24.767-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:54:24.765-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T16:54:24.768-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:54:24.827-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.087 seconds
+[2025-04-21T16:57:00.190-0400] {processor.py:161} INFO - Started process (PID=84733) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:57:00.192-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T16:57:00.192-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:57:00.192-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:57:00.216-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:57:00.214-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T16:57:00.216-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:57:00.275-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.086 seconds
+[2025-04-21T16:58:23.164-0400] {processor.py:161} INFO - Started process (PID=84844) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:58:23.166-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T16:58:23.167-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:58:23.167-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:58:23.190-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:58:23.189-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T16:58:23.190-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:58:23.246-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.082 seconds
+[2025-04-21T16:59:43.123-0400] {processor.py:161} INFO - Started process (PID=84929) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:59:43.124-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T16:59:43.125-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:59:43.124-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:59:43.147-0400] {logging_mixin.py:188} INFO - [2025-04-21T16:59:43.146-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T16:59:43.148-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T16:59:43.205-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2025-04-21T17:00:55.249-0400] {processor.py:161} INFO - Started process (PID=85017) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:00:55.251-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:00:55.252-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:00:55.252-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:00:55.274-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:00:55.273-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:00:55.274-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:00:55.329-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2025-04-21T17:02:19.401-0400] {processor.py:161} INFO - Started process (PID=85119) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:02:19.403-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:02:19.403-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:02:19.403-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:02:19.430-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:02:19.429-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:02:19.430-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:02:19.490-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.091 seconds
+[2025-04-21T17:03:37.327-0400] {processor.py:161} INFO - Started process (PID=85209) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:03:37.329-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:03:37.330-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:03:37.330-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:03:37.352-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:03:37.351-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:03:37.352-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:03:37.410-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2025-04-21T17:04:50.205-0400] {processor.py:161} INFO - Started process (PID=85307) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:04:50.206-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:04:50.206-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:04:50.206-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:04:50.229-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:04:50.228-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:04:50.229-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:04:50.286-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.082 seconds
+[2025-04-21T17:06:01.063-0400] {processor.py:161} INFO - Started process (PID=85387) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:06:01.065-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:06:01.065-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:06:01.065-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:06:01.088-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:06:01.087-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:06:01.089-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:06:01.145-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2025-04-21T17:07:12.462-0400] {processor.py:161} INFO - Started process (PID=85478) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:07:12.463-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:07:12.464-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:07:12.464-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:07:12.486-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:07:12.485-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:07:12.487-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:07:12.542-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2025-04-21T17:08:25.955-0400] {processor.py:161} INFO - Started process (PID=85557) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:08:25.957-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:08:25.958-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:08:25.958-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:08:25.981-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:08:25.980-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:08:25.981-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:08:26.037-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2025-04-21T17:09:39.151-0400] {processor.py:161} INFO - Started process (PID=85637) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:09:39.153-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:09:39.154-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:09:39.153-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:09:39.175-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:09:39.174-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:09:39.175-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:09:39.230-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.080 seconds
+[2025-04-21T17:10:52.857-0400] {processor.py:161} INFO - Started process (PID=85718) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:10:52.859-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:10:52.859-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:10:52.859-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:10:52.881-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:10:52.880-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:10:52.882-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:10:52.956-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.100 seconds
+[2025-04-21T17:12:06.257-0400] {processor.py:161} INFO - Started process (PID=85811) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:12:06.259-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:12:06.260-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:12:06.260-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:12:06.282-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:12:06.281-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:12:06.282-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:12:06.339-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2025-04-21T17:13:19.889-0400] {processor.py:161} INFO - Started process (PID=85888) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:13:19.891-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:13:19.892-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:13:19.892-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:13:19.915-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:13:19.913-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:13:19.915-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:13:19.971-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.082 seconds
+[2025-04-21T17:14:34.657-0400] {processor.py:161} INFO - Started process (PID=85988) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:14:34.659-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:14:34.660-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:14:34.660-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:14:34.681-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:14:34.680-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:14:34.682-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:14:34.737-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.080 seconds
+[2025-04-21T17:15:46.571-0400] {processor.py:161} INFO - Started process (PID=86077) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:15:46.572-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:15:46.573-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:15:46.572-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:15:46.595-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:15:46.593-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:15:46.595-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:15:46.649-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.079 seconds
+[2025-04-21T17:17:00.131-0400] {processor.py:161} INFO - Started process (PID=86164) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:17:00.133-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:17:00.133-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:17:00.133-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:17:00.156-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:17:00.155-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:17:00.156-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:17:00.214-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.084 seconds
+[2025-04-21T17:18:14.702-0400] {processor.py:161} INFO - Started process (PID=86261) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:18:14.704-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:18:14.704-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:18:14.704-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:18:14.732-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:18:14.731-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:18:14.732-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:18:14.789-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.088 seconds
+[2025-04-21T17:19:31.201-0400] {processor.py:161} INFO - Started process (PID=86359) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:19:31.202-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:19:31.203-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:19:31.203-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:19:31.227-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:19:31.225-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:19:31.227-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:19:31.283-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.082 seconds
+[2025-04-21T17:22:35.594-0400] {processor.py:161} INFO - Started process (PID=86552) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:22:35.595-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:22:35.595-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:22:35.595-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:22:35.618-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:22:35.617-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:22:35.618-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:22:35.675-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.082 seconds
+[2025-04-21T17:24:06.809-0400] {processor.py:161} INFO - Started process (PID=86662) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:24:06.811-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:24:06.812-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:24:06.812-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:24:06.841-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:24:06.840-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:24:06.841-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:24:06.901-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.093 seconds
+[2025-04-21T17:25:23.845-0400] {processor.py:161} INFO - Started process (PID=86746) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:25:23.847-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:25:23.847-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:25:23.847-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:25:23.870-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:25:23.868-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:25:23.870-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:25:23.928-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2025-04-21T17:26:39.241-0400] {processor.py:161} INFO - Started process (PID=86857) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:26:39.243-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:26:39.243-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:26:39.243-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:26:39.267-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:26:39.265-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:26:39.267-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:26:39.325-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.085 seconds
+[2025-04-21T17:28:53.708-0400] {processor.py:161} INFO - Started process (PID=87071) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:28:53.710-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:28:53.710-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:28:53.710-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:28:53.733-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:28:53.732-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:28:53.733-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:28:53.789-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.082 seconds
+[2025-04-21T17:30:21.550-0400] {processor.py:161} INFO - Started process (PID=87172) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:30:21.551-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:30:21.552-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:30:21.552-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:30:21.575-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:30:21.574-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:30:21.575-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:30:21.631-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.082 seconds
+[2025-04-21T17:31:37.140-0400] {processor.py:161} INFO - Started process (PID=87257) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:31:37.142-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:31:37.143-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:31:37.142-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:31:37.165-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:31:37.164-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:31:37.165-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:31:37.220-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.080 seconds
+[2025-04-21T17:37:54.555-0400] {processor.py:161} INFO - Started process (PID=87825) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:37:54.556-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:37:54.557-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:37:54.557-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:37:54.578-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:37:54.577-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:37:54.579-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:37:54.635-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.080 seconds
+[2025-04-21T17:40:28.116-0400] {processor.py:161} INFO - Started process (PID=88026) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:40:28.117-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:40:28.118-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:40:28.118-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:40:28.141-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:40:28.140-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:40:28.141-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:40:28.196-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2025-04-21T17:42:20.333-0400] {processor.py:161} INFO - Started process (PID=88158) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:42:20.335-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:42:20.336-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:42:20.336-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:42:20.357-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:42:20.356-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:42:20.358-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:42:20.414-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2025-04-21T17:43:31.899-0400] {processor.py:161} INFO - Started process (PID=88237) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:43:31.901-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:43:31.901-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:43:31.901-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:43:31.925-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:43:31.923-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:43:31.925-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:43:31.980-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.082 seconds
+[2025-04-21T17:44:44.316-0400] {processor.py:161} INFO - Started process (PID=88330) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:44:44.318-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:44:44.318-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:44:44.318-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:44:44.340-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:44:44.339-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:44:44.340-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:44:44.396-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2025-04-21T17:45:39.073-0400] {processor.py:161} INFO - Started process (PID=88411) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:45:39.074-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:45:39.075-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:45:39.075-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:45:39.093-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:45:39.092-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:45:39.093-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:45:39.138-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.066 seconds
+[2025-04-21T17:47:01.237-0400] {processor.py:161} INFO - Started process (PID=88578) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:47:01.238-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:47:01.238-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:47:01.238-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:47:01.256-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:47:01.255-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:47:01.256-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:47:01.299-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.062 seconds
+[2025-04-21T17:48:13.369-0400] {processor.py:161} INFO - Started process (PID=88671) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:48:13.371-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:48:13.371-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:48:13.371-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:48:13.390-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:48:13.388-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:48:13.390-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:48:13.434-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.066 seconds
+[2025-04-21T17:49:18.247-0400] {processor.py:161} INFO - Started process (PID=88764) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:49:18.248-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:49:18.249-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:49:18.249-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:49:18.267-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:49:18.265-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:49:18.267-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:49:18.309-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.063 seconds
+[2025-04-21T17:50:28.731-0400] {processor.py:161} INFO - Started process (PID=88866) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:50:28.732-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:50:28.733-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:50:28.733-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:50:28.752-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:50:28.750-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:50:28.752-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:50:28.799-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.069 seconds
+[2025-04-21T17:51:24.775-0400] {processor.py:161} INFO - Started process (PID=88947) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:51:24.777-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:51:24.777-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:51:24.777-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:51:24.796-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:51:24.795-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:51:24.796-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:51:24.841-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.067 seconds
+[2025-04-21T17:52:44.261-0400] {processor.py:161} INFO - Started process (PID=89051) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:52:44.263-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:52:44.263-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:52:44.263-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:52:44.282-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:52:44.281-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:52:44.282-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:52:44.328-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.068 seconds
+[2025-04-21T17:53:59.029-0400] {processor.py:161} INFO - Started process (PID=89145) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:53:59.030-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:53:59.030-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:53:59.030-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:53:59.050-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:53:59.049-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:53:59.050-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:53:59.097-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.069 seconds
+[2025-04-21T17:55:20.207-0400] {processor.py:161} INFO - Started process (PID=89340) to work on /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:55:20.208-0400] {processor.py:830} INFO - Processing file /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-04-21T17:55:20.209-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:55:20.209-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:55:20.228-0400] {logging_mixin.py:188} INFO - [2025-04-21T17:55:20.227-0400] {dagbag.py:348} ERROR - Failed to import: /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-04-21T17:55:20.229-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-04-21T17:55:20.276-0400] {processor.py:183} INFO - Processing /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py took 0.070 seconds

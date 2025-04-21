@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/mlruns/0/32d3454ad0f84dc3a13f5d9e012a4e89/artifacts
+end_time: 1745270907545
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 32d3454ad0f84dc3a13f5d9e012a4e89
+run_name: naive_bayes
+run_uuid: 32d3454ad0f84dc3a13f5d9e012a4e89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745270904481
+status: 3
+tags: []
+user_id: gaurav

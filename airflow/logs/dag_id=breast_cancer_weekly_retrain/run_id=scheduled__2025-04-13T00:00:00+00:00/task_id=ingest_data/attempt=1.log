@@ -1,0 +1,17 @@
+[2025-04-21T16:45:21.368-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: breast_cancer_weekly_retrain.ingest_data scheduled__2025-04-13T00:00:00+00:00 [queued]>
+[2025-04-21T16:45:21.372-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: breast_cancer_weekly_retrain.ingest_data scheduled__2025-04-13T00:00:00+00:00 [queued]>
+[2025-04-21T16:45:21.372-0400] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-04-21T16:45:21.383-0400] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): ingest_data> on 2025-04-13 00:00:00+00:00
+[2025-04-21T16:45:21.402-0400] {standard_task_runner.py:60} INFO - Started process 83873 to run task
+[2025-04-21T16:45:21.409-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'breast_cancer_weekly_retrain', 'ingest_data', 'scheduled__2025-04-13T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/breast_cancer_retrain_dag.py', '--cfg-path', '/var/folders/xh/nzdhwdsn5tl09sb1dpsfz0r40000gn/T/tmpbpih_hab']
+[2025-04-21T16:45:21.412-0400] {standard_task_runner.py:88} INFO - Job 3: Subtask ingest_data
+[2025-04-21T16:45:21.450-0400] {task_command.py:423} INFO - Running <TaskInstance: breast_cancer_weekly_retrain.ingest_data scheduled__2025-04-13T00:00:00+00:00 [running]> on host gauravs-macbook-pro.local
+[2025-04-21T16:45:21.488-0400] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gaurav' AIRFLOW_CTX_DAG_ID='breast_cancer_weekly_retrain' AIRFLOW_CTX_TASK_ID='ingest_data' AIRFLOW_CTX_EXECUTION_DATE='2025-04-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-13T00:00:00+00:00'
+[2025-04-21T16:45:21.492-0400] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/xh/nzdhwdsn5tl09sb1dpsfz0r40000gn/T
+[2025-04-21T16:45:21.493-0400] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo "Assuming wdbc.csv is already present."']
+[2025-04-21T16:45:21.512-0400] {subprocess.py:86} INFO - Output:
+[2025-04-21T16:45:21.532-0400] {subprocess.py:93} INFO - Assuming wdbc.csv is already present.
+[2025-04-21T16:45:21.533-0400] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-04-21T16:45:21.549-0400] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=breast_cancer_weekly_retrain, task_id=ingest_data, execution_date=20250413T000000, start_date=20250421T204521, end_date=20250421T204521
+[2025-04-21T16:45:21.593-0400] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-04-21T16:45:21.608-0400] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

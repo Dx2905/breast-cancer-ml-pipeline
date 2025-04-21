@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/gaurav/Documents/Breast-Cancer-ML-Pipeline/mlruns/0/4b0baae3fb184c22b563ba69896b2188/artifacts
+end_time: 1745208081472
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b0baae3fb184c22b563ba69896b2188
+run_name: logreg
+run_uuid: 4b0baae3fb184c22b563ba69896b2188
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745208078144
+status: 3
+tags: []
+user_id: gaurav

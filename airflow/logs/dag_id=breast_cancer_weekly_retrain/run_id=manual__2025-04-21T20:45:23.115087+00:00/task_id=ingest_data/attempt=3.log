@@ -1,0 +1,41 @@
+[2025-04-21T16:55:48.830-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: breast_cancer_weekly_retrain.ingest_data manual__2025-04-21T20:45:23.115087+00:00 [queued]>
+[2025-04-21T16:55:48.835-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: breast_cancer_weekly_retrain.ingest_data manual__2025-04-21T20:45:23.115087+00:00 [queued]>
+[2025-04-21T16:55:48.835-0400] {taskinstance.py:2170} INFO - Starting attempt 3 of 4
+[2025-04-21T16:55:48.844-0400] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): ingest_data> on 2025-04-21 20:45:23.115087+00:00
+[2025-04-21T16:55:48.864-0400] {standard_task_runner.py:60} INFO - Started process 84619 to run task
+[2025-04-21T16:55:48.872-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'breast_cancer_weekly_retrain', 'ingest_data', 'manual__2025-04-21T20:45:23.115087+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/breast_cancer_retrain_dag.py', '--cfg-path', '/var/folders/xh/nzdhwdsn5tl09sb1dpsfz0r40000gn/T/tmpwwkps0dh']
+[2025-04-21T16:55:48.877-0400] {standard_task_runner.py:88} INFO - Job 9: Subtask ingest_data
+[2025-04-21T16:55:48.911-0400] {task_command.py:423} INFO - Running <TaskInstance: breast_cancer_weekly_retrain.ingest_data manual__2025-04-21T20:45:23.115087+00:00 [running]> on host gauravs-macbook-pro.local
+[2025-04-21T16:55:48.951-0400] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='gaurav' AIRFLOW_CTX_DAG_ID='breast_cancer_weekly_retrain' AIRFLOW_CTX_TASK_ID='ingest_data' AIRFLOW_CTX_EXECUTION_DATE='2025-04-21T20:45:23.115087+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-21T20:45:23.115087+00:00'
+[2025-04-21T16:55:48.953-0400] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/xh/nzdhwdsn5tl09sb1dpsfz0r40000gn/T
+[2025-04-21T16:55:48.954-0400] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'ls -l /Users/gaurav/Documents/Breast-Cancer-ML-Pipeline']
+[2025-04-21T16:55:48.973-0400] {subprocess.py:86} INFO - Output:
+[2025-04-21T16:55:49.201-0400] {subprocess.py:93} INFO - total 36424
+[2025-04-21T16:55:49.202-0400] {subprocess.py:93} INFO - -rw-r--r--@  1 gaurav  staff  18468828 Apr 20 19:46 ProjectCS6140Gaurav(Group18).ipynb
+[2025-04-21T16:55:49.202-0400] {subprocess.py:93} INFO - drwxr-xr-x   5 gaurav  staff       160 Apr 21 13:15 __pycache__
+[2025-04-21T16:55:49.202-0400] {subprocess.py:93} INFO - drwxr-xr-x  10 gaurav  staff       320 Apr 21 16:55 airflow
+[2025-04-21T16:55:49.203-0400] {subprocess.py:93} INFO - drwxr-xr-x   4 gaurav  staff       128 Apr 21 12:39 api
+[2025-04-21T16:55:49.203-0400] {subprocess.py:93} INFO - -rw-r--r--@  1 gaurav  staff       683 Apr 21 13:15 app.py
+[2025-04-21T16:55:49.203-0400] {subprocess.py:93} INFO - drwxr-xr-x   9 gaurav  staff       288 Apr 21 00:12 artifacts
+[2025-04-21T16:55:49.204-0400] {subprocess.py:93} INFO - -rw-r--r--@  1 gaurav  staff      3038 Apr 21 15:01 breastcancer_fastapi_dashboard_fixed.json
+[2025-04-21T16:55:49.204-0400] {subprocess.py:93} INFO - -rw-r--r--@  1 gaurav  staff      3017 Apr 21 15:13 breastcancer_fastapi_dashboard_prometheus_fixed.json
+[2025-04-21T16:55:49.204-0400] {subprocess.py:93} INFO - drwxr-xr-x   6 gaurav  staff       192 Apr 21 15:22 data
+[2025-04-21T16:55:49.204-0400] {subprocess.py:93} INFO - -rw-r--r--@  1 gaurav  staff      1244 Apr 20 23:56 data_preprocessing.py
+[2025-04-21T16:55:49.205-0400] {subprocess.py:93} INFO - -rw-r--r--@  1 gaurav  staff      1576 Apr 21 00:51 explainability.py
+[2025-04-21T16:55:49.205-0400] {subprocess.py:93} INFO - -rw-r--r--@  1 gaurav  staff      1673 Apr 21 12:38 fastapi_ml_monitoring_dashboard.json
+[2025-04-21T16:55:49.206-0400] {subprocess.py:93} INFO - -rw-r--r--@  1 gaurav  staff      1508 Apr 21 00:11 mlflow_utils.py
+[2025-04-21T16:55:49.206-0400] {subprocess.py:93} INFO - drwxr-xr-x   5 gaurav  staff       160 Apr 20 23:48 mlruns
+[2025-04-21T16:55:49.207-0400] {subprocess.py:93} INFO - -rw-r--r--   1 gaurav  staff       658 Apr 21 16:45 model_results.csv
+[2025-04-21T16:55:49.207-0400] {subprocess.py:93} INFO - drwxr-xr-x   9 gaurav  staff       288 Apr 20 21:42 models
+[2025-04-21T16:55:49.207-0400] {subprocess.py:93} INFO - drwxr-xr-x   6 gaurav  staff       192 Apr 21 01:06 plots
+[2025-04-21T16:55:49.208-0400] {subprocess.py:93} INFO - -rw-r--r--@  1 gaurav  staff       160 Apr 21 13:31 prometheus.yml
+[2025-04-21T16:55:49.208-0400] {subprocess.py:93} INFO - -rw-r--r--   1 gaurav  staff       114 Apr 20 21:00 requirements.txt
+[2025-04-21T16:55:49.208-0400] {subprocess.py:93} INFO - -rw-r--r--@  1 gaurav  staff       804 Apr 21 01:21 sample_input.json
+[2025-04-21T16:55:49.208-0400] {subprocess.py:93} INFO - -rw-r--r--@  1 gaurav  staff      2278 Apr 21 01:06 shap_explain_logreg_svm.py
+[2025-04-21T16:55:49.209-0400] {subprocess.py:93} INFO - -rw-r--r--@  1 gaurav  staff      3993 Apr 21 00:11 train.py
+[2025-04-21T16:55:49.209-0400] {subprocess.py:93} INFO - drwxr-xr-x   7 gaurav  staff       224 Apr 20 21:39 venv
+[2025-04-21T16:55:49.209-0400] {subprocess.py:93} INFO - -rw-r--r--@  1 gaurav  staff    124103 Apr 20 20:16 wdbc.csv
+[2025-04-21T16:55:49.210-0400] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-04-21T16:55:49.226-0400] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=breast_cancer_weekly_retrain, task_id=ingest_data, execution_date=20250421T204523, start_date=20250421T205548, end_date=20250421T205549
+[2025-04-21T16:55:49.247-0400] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-04-21T16:55:49.260-0400] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

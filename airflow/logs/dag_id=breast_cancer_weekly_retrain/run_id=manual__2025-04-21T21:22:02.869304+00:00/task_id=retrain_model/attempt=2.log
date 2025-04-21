@@ -1,0 +1,9 @@
+[2025-04-21T17:46:28.497-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: breast_cancer_weekly_retrain.retrain_model manual__2025-04-21T21:22:02.869304+00:00 [queued]>
+[2025-04-21T17:46:28.500-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: breast_cancer_weekly_retrain.retrain_model manual__2025-04-21T21:22:02.869304+00:00 [queued]>
+[2025-04-21T17:46:28.500-0400] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2025-04-21T17:46:28.508-0400] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): retrain_model> on 2025-04-21 21:22:02.869304+00:00
+[2025-04-21T17:46:28.524-0400] {standard_task_runner.py:60} INFO - Started process 88540 to run task
+[2025-04-21T17:46:28.528-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'breast_cancer_weekly_retrain', 'retrain_model', 'manual__2025-04-21T21:22:02.869304+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/breast_cancer_retrain_dag.py', '--cfg-path', '/var/folders/xh/nzdhwdsn5tl09sb1dpsfz0r40000gn/T/tmp3t0rhzwu']
+[2025-04-21T17:46:28.531-0400] {standard_task_runner.py:88} INFO - Job 34: Subtask retrain_model
+[2025-04-21T17:46:28.590-0400] {local_task_job_runner.py:234} INFO - Task exited with return code Negsignal.SIGBUS
+[2025-04-21T17:46:28.606-0400] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

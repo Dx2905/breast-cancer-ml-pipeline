@@ -1,0 +1,17 @@
+{
+	"ulid": "01JSCWS6JBBB580S3W32V39YP6",
+	"minTime": 1745252494772,
+	"maxTime": 1745258400000,
+	"stats": {
+		"numSamples": 8745,
+		"numSeries": 75,
+		"numChunks": 80
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01JSCWS6JBBB580S3W32V39YP6"
+		]
+	},
+	"version": 1
+}

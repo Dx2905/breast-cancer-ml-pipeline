@@ -1,0 +1,75 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "FastAPI ML Monitoring",
+    "panels": [
+      {
+        "type": "stat",
+        "title": "Total Requests by Endpoint",
+        "targets": [
+          {
+            "expr": "sum by (handler) (http_requests_total)",
+            "legendFormat": "{{handler}}"
+          }
+        ],
+        "gridPos": {
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 6
+        }
+      },
+      {
+        "type": "graph",
+        "title": "Request Count Over Time (/predict)",
+        "targets": [
+          {
+            "expr": "rate(http_requests_total{handler=\"/predict\"}[1m])",
+            "legendFormat": "/predict"
+          }
+        ],
+        "gridPos": {
+          "x": 12,
+          "y": 0,
+          "w": 12,
+          "h": 6
+        }
+      },
+      {
+        "type": "graph",
+        "title": "Average Request Duration (by Endpoint)",
+        "targets": [
+          {
+            "expr": "rate(http_request_duration_seconds_sum[1m]) / rate(http_request_duration_seconds_count[1m])",
+            "legendFormat": "{{handler}}"
+          }
+        ],
+        "gridPos": {
+          "x": 0,
+          "y": 6,
+          "w": 24,
+          "h": 6
+        }
+      },
+      {
+        "type": "bar gauge",
+        "title": "Total Response Size by Endpoint",
+        "targets": [
+          {
+            "expr": "sum by (handler) (http_response_size_bytes_sum)",
+            "legendFormat": "{{handler}}"
+          }
+        ],
+        "gridPos": {
+          "x": 0,
+          "y": 12,
+          "w": 24,
+          "h": 6
+        }
+      }
+    ],
+    "schemaVersion": 36,
+    "version": 1,
+    "refresh": "5s"
+  }
+}

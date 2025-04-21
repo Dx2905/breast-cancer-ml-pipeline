@@ -1,0 +1,9 @@
+[2025-04-21T17:36:00.477-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: breast_cancer_weekly_retrain.ingest_data manual__2025-04-21T20:45:23.115087+00:00 [queued]>
+[2025-04-21T17:36:00.480-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: breast_cancer_weekly_retrain.ingest_data manual__2025-04-21T20:45:23.115087+00:00 [queued]>
+[2025-04-21T17:36:00.480-0400] {taskinstance.py:2170} INFO - Starting attempt 8 of 9
+[2025-04-21T17:36:00.490-0400] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): ingest_data> on 2025-04-21 20:45:23.115087+00:00
+[2025-04-21T17:36:00.509-0400] {standard_task_runner.py:60} INFO - Started process 87474 to run task
+[2025-04-21T17:36:00.515-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'breast_cancer_weekly_retrain', 'ingest_data', 'manual__2025-04-21T20:45:23.115087+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/breast_cancer_retrain_dag.py', '--cfg-path', '/var/folders/xh/nzdhwdsn5tl09sb1dpsfz0r40000gn/T/tmpnvdlvtjx']
+[2025-04-21T17:36:00.518-0400] {standard_task_runner.py:88} INFO - Job 28: Subtask ingest_data
+[2025-04-21T17:36:00.576-0400] {local_task_job_runner.py:234} INFO - Task exited with return code Negsignal.SIGBUS
+[2025-04-21T17:36:00.597-0400] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
